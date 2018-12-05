@@ -146,5 +146,16 @@
             "Homepage": "https://tether.to"
         },
         "wallet": {}
+    },
+    {
+        "name": "Hycon",
+        "shortcut": "HYC",
+        "slip44": 1397,
+        "curve": "secp256k1",
+        "links": {
+            "Homepage": "https://hycon.io",
+            "Github": "https://github.com/Team-Hycon"
+        },
+        "wallet": {}
     }
 ]
