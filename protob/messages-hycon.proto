@@ -45,6 +45,7 @@ message HyconSignTx {
  * @end
  */
  message HyconSignedTx {
-	optional string signature = 1;
-	optional uint32 recovery = 2;
+	optional bytes signature = 1;
+    optional uint32 recovery = 2;
+    optional bytes txhash = 3;
 }
